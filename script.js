@@ -34,7 +34,7 @@ function makescore() {
 
 function makebubble() {
     var bbl = "";
-    for (var i = 0; i < 400; i++) {
+    for (var i = 0; i < 90; i++) {
         rn = Math.floor(Math.random() * 10)
         bbl += `<div class="bubble">${rn}</div>`;
     }
